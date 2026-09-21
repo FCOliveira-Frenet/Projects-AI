@@ -1,0 +1,10 @@
+# Ambiente virtual
+.venv/
+
+# Banco de dados local (seus dados pessoais, nunca versionar)
+data/
+
+# Artefatos do Python
+__pycache__/
+*.py[cod]
+.pytest_cache/

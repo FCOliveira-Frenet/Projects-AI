@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Controle pessoal de tarefas</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%E2%9C%93</text></svg>"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <div>
+          <h1>Controle de tarefas</h1>
+          <p class="subtitle">Prazos, prioridades e rotinas recorrentes.</p>
+        </div>
+        <dl class="summary">
+          <div class="summary-item">
+            <dt>Pendentes</dt>
+            <dd id="resumo-pendentes">0</dd>
+          </div>
+          <div class="summary-item summary-item--alert">
+            <dt>Atrasadas</dt>
+            <dd id="resumo-atrasadas">0</dd>
+          </div>
+          <div class="summary-item">
+            <dt>Concluídas</dt>
+            <dd id="resumo-concluidas">0</dd>
+          </div>
+        </dl>
+      </header>
+
+      <main class="content">
+        <section class="card" aria-labelledby="titulo-formulario">
+          <h2 id="titulo-formulario" class="card-title">Nova tarefa</h2>
+          <form id="formulario" class="form" novalidate>
+            <div class="field field--wide">
+              <label for="campo-titulo">Título</label>
+              <input
+                id="campo-titulo"
+                name="title"
+                type="text"
+                maxlength="120"
+                placeholder="Ex.: Pagar a conta de luz"
+                required
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="field field--wide">
+              <label for="campo-descricao">Descrição <span class="hint">(opcional)</span></label>
+              <textarea
+                id="campo-descricao"
+                name="description"
+                maxlength="2000"
+                rows="2"
+                placeholder="Detalhes, link ou observação"
+              ></textarea>
+            </div>
+
+            <div class="field">
+              <label for="campo-vencimento">Vencimento</label>
+              <input id="campo-vencimento" name="due_date" type="date" />
+            </div>
+
+            <div class="field">
+              <label for="campo-prioridade">Prioridade</label>
+              <select id="campo-prioridade" name="priority">
+                <option value="baixa">Baixa</option>
+                <option value="media" selected>Média</option>
+                <option value="alta">Alta</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="campo-recorrencia">Recorrência</label>
+              <select id="campo-recorrencia" name="recurrence">
+                <option value="nenhuma" selected>Não se repete</option>
+                <option value="diaria">Diária</option>
+                <option value="semanal">Semanal</option>
+                <option value="mensal">Mensal</option>
+              </select>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn--primary" id="botao-salvar">
+                Adicionar tarefa
+              </button>
+              <button type="button" class="btn btn--ghost is-hidden" id="botao-cancelar">
+                Cancelar edição
+              </button>
+            </div>
+          </form>
+        </section>
+
+        <p id="aviso" class="feedback is-hidden" role="status" aria-live="polite"></p>
+
+        <section class="card" aria-labelledby="titulo-lista">
+          <div class="list-header">
+            <h2 id="titulo-lista" class="card-title">Minhas tarefas</h2>
+            <div class="filters">
+              <div class="tabs" role="group" aria-label="Filtrar por status">
+                <button type="button" class="tab is-active" data-status="">Todas</button>
+                <button type="button" class="tab" data-status="pendente">Pendentes</button>
+                <button type="button" class="tab" data-status="concluida">Concluídas</button>
+              </div>
+              <label class="filter-priority">
+                <span>Prioridade</span>
+                <select id="filtro-prioridade">
+                  <option value="">Todas</option>
+                  <option value="alta">Alta</option>
+                  <option value="media">Média</option>
+                  <option value="baixa">Baixa</option>
+                </select>
+              </label>
+            </div>
+          </div>
+
+          <ul id="lista" class="task-list"></ul>
+          <p id="lista-vazia" class="empty is-hidden">Nenhuma tarefa por aqui.</p>
+        </section>
+      </main>
+    </div>
+
+    <template id="modelo-tarefa">
+      <li class="task">
+        <button type="button" class="task-check" data-acao="alternar" title="Concluir ou reabrir">
+          <span class="task-check-mark" aria-hidden="true">✓</span>
+        </button>
+        <div class="task-body">
+          <p class="task-title"></p>
+          <p class="task-description"></p>
+          <div class="task-meta">
+            <span class="badge badge--priority"></span>
+            <span class="badge badge--due"></span>
+            <span class="badge badge--recurrence"></span>
+          </div>
+        </div>
+        <div class="task-actions">
+          <button type="button" class="btn btn--small" data-acao="editar">Editar</button>
+          <button type="button" class="btn btn--small btn--danger" data-acao="excluir">
+            Excluir
+          </button>
+        </div>
+      </li>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
