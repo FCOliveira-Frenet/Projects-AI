@@ -1,0 +1,1758 @@
+{
+  "meta": {
+    "generatedAt": "2026-09-23T16:31:02",
+    "sourceFile": "Base_SLA_J_T.xlsx",
+    "sheet": "Base SLA J&T",
+    "carrier": "J&T Express",
+    "origin": "Google Sheets (online)",
+    "sheetUrl": "https://docs.google.com/spreadsheets/d/1Q1eHkc7o47OXP8U8U51vlyXPaH5BHe1LC_1fXlOaM50/edit",
+    "dateRange": {
+      "start": "2026-09-16T00:00:05",
+      "end": "2026-09-21T23:59:31"
+    }
+  },
+  "kpis": {
+    "slaAvg": 0.7347,
+    "totalDeliveries": 16565,
+    "scored": 14421,
+    "onTime": 10307,
+    "late": 3569,
+    "partial": 545,
+    "noInfo": 2144
+  },
+  "statusDistribution": [
+    {
+      "key": "onTime",
+      "label": "No prazo",
+      "count": 10307,
+      "pct": 71.47,
+      "tone": "positive"
+    },
+    {
+      "key": "partial",
+      "label": "Parcial",
+      "count": 545,
+      "pct": 3.78,
+      "tone": "warning"
+    },
+    {
+      "key": "late",
+      "label": "Atrasadas",
+      "count": 3569,
+      "pct": 24.75,
+      "tone": "danger"
+    },
+    {
+      "key": "noInfo",
+      "label": "Em análise",
+      "count": 2144,
+      "pct": null,
+      "tone": "neutral"
+    }
+  ],
+  "byDay": [
+    {
+      "date": "2026-09-16",
+      "label": "16/09",
+      "labelLong": "16 set (qua)",
+      "volume": 2166,
+      "scored": 2118,
+      "slaAvg": 0.7322
+    },
+    {
+      "date": "2026-09-17",
+      "label": "17/09",
+      "labelLong": "17 set (qui)",
+      "volume": 2302,
+      "scored": 2234,
+      "slaAvg": 0.6724
+    },
+    {
+      "date": "2026-09-18",
+      "label": "18/09",
+      "labelLong": "18 set (sex)",
+      "volume": 2370,
+      "scored": 2252,
+      "slaAvg": 0.691
+    },
+    {
+      "date": "2026-09-19",
+      "label": "19/09",
+      "labelLong": "19 set (sáb)",
+      "volume": 3044,
+      "scored": 2763,
+      "slaAvg": 0.7125
+    },
+    {
+      "date": "2026-09-20",
+      "label": "20/09",
+      "labelLong": "20 set (dom)",
+      "volume": 3360,
+      "scored": 2701,
+      "slaAvg": 0.7388
+    },
+    {
+      "date": "2026-09-21",
+      "label": "21/09",
+      "labelLong": "21 set (seg)",
+      "volume": 3323,
+      "scored": 2353,
+      "slaAvg": 0.8594
+    }
+  ],
+  "byHourOfDay": [
+    {
+      "hour": 0,
+      "label": "00h",
+      "volume": 626,
+      "scored": 603,
+      "slaAvg": 0.8557
+    },
+    {
+      "hour": 1,
+      "label": "01h",
+      "volume": 276,
+      "scored": 259,
+      "slaAvg": 0.805
+    },
+    {
+      "hour": 2,
+      "label": "02h",
+      "volume": 35,
+      "scored": 35,
+      "slaAvg": 0.8857
+    },
+    {
+      "hour": 3,
+      "label": "03h",
+      "volume": 33,
+      "scored": 30,
+      "slaAvg": 0.7689
+    },
+    {
+      "hour": 4,
+      "label": "04h",
+      "volume": 29,
+      "scored": 25,
+      "slaAvg": 0.6
+    },
+    {
+      "hour": 5,
+      "label": "05h",
+      "volume": 53,
+      "scored": 48,
+      "slaAvg": 0.7917
+    },
+    {
+      "hour": 6,
+      "label": "06h",
+      "volume": 66,
+      "scored": 64,
+      "slaAvg": 0.5625
+    },
+    {
+      "hour": 7,
+      "label": "07h",
+      "volume": 95,
+      "scored": 80,
+      "slaAvg": 0.6108
+    },
+    {
+      "hour": 8,
+      "label": "08h",
+      "volume": 299,
+      "scored": 272,
+      "slaAvg": 0.5667
+    },
+    {
+      "hour": 9,
+      "label": "09h",
+      "volume": 453,
+      "scored": 381,
+      "slaAvg": 0.6004
+    },
+    {
+      "hour": 10,
+      "label": "10h",
+      "volume": 586,
+      "scored": 496,
+      "slaAvg": 0.5492
+    },
+    {
+      "hour": 11,
+      "label": "11h",
+      "volume": 609,
+      "scored": 499,
+      "slaAvg": 0.5249
+    },
+    {
+      "hour": 12,
+      "label": "12h",
+      "volume": 650,
+      "scored": 558,
+      "slaAvg": 0.6358
+    },
+    {
+      "hour": 13,
+      "label": "13h",
+      "volume": 1106,
+      "scored": 961,
+      "slaAvg": 0.7177
+    },
+    {
+      "hour": 14,
+      "label": "14h",
+      "volume": 1256,
+      "scored": 1075,
+      "slaAvg": 0.6867
+    },
+    {
+      "hour": 15,
+      "label": "15h",
+      "volume": 1621,
+      "scored": 1364,
+      "slaAvg": 0.6911
+    },
+    {
+      "hour": 16,
+      "label": "16h",
+      "volume": 1947,
+      "scored": 1692,
+      "slaAvg": 0.6769
+    },
+    {
+      "hour": 17,
+      "label": "17h",
+      "volume": 2008,
+      "scored": 1665,
+      "slaAvg": 0.7115
+    },
+    {
+      "hour": 18,
+      "label": "18h",
+      "volume": 1520,
+      "scored": 1258,
+      "slaAvg": 0.8467
+    },
+    {
+      "hour": 19,
+      "label": "19h",
+      "volume": 982,
+      "scored": 910,
+      "slaAvg": 0.8626
+    },
+    {
+      "hour": 20,
+      "label": "20h",
+      "volume": 700,
+      "scored": 618,
+      "slaAvg": 0.8443
+    },
+    {
+      "hour": 21,
+      "label": "21h",
+      "volume": 430,
+      "scored": 411,
+      "slaAvg": 0.9477
+    },
+    {
+      "hour": 22,
+      "label": "22h",
+      "volume": 466,
+      "scored": 434,
+      "slaAvg": 0.8399
+    },
+    {
+      "hour": 23,
+      "label": "23h",
+      "volume": 719,
+      "scored": 683,
+      "slaAvg": 0.8499
+    }
+  ],
+  "timeSeries": [
+    {
+      "ts": "2026-09-16T00:00",
+      "label": "16/09 00h",
+      "shortLabel": "00h",
+      "day": "2026-09-16",
+      "volume": 87,
+      "scored": 87,
+      "slaAvg": 0.8966
+    },
+    {
+      "ts": "2026-09-16T01:00",
+      "label": "16/09 01h",
+      "shortLabel": "01h",
+      "day": "2026-09-16",
+      "volume": 4,
+      "scored": 4,
+      "slaAvg": 0.5
+    },
+    {
+      "ts": "2026-09-16T02:00",
+      "label": "16/09 02h",
+      "shortLabel": "02h",
+      "day": "2026-09-16",
+      "volume": 2,
+      "scored": 2,
+      "slaAvg": 1.0
+    },
+    {
+      "ts": "2026-09-16T03:00",
+      "label": "16/09 03h",
+      "shortLabel": "03h",
+      "day": "2026-09-16",
+      "volume": 6,
+      "scored": 6,
+      "slaAvg": 0.6667
+    },
+    {
+      "ts": "2026-09-16T04:00",
+      "label": "16/09 04h",
+      "shortLabel": "04h",
+      "day": "2026-09-16",
+      "volume": 5,
+      "scored": 5,
+      "slaAvg": 0.4
+    },
+    {
+      "ts": "2026-09-16T05:00",
+      "label": "16/09 05h",
+      "shortLabel": "05h",
+      "day": "2026-09-16",
+      "volume": 13,
+      "scored": 12,
+      "slaAvg": 0.8333
+    },
+    {
+      "ts": "2026-09-16T06:00",
+      "label": "16/09 06h",
+      "shortLabel": "06h",
+      "day": "2026-09-16",
+      "volume": 8,
+      "scored": 8,
+      "slaAvg": 0.25
+    },
+    {
+      "ts": "2026-09-16T07:00",
+      "label": "16/09 07h",
+      "shortLabel": "07h",
+      "day": "2026-09-16",
+      "volume": 11,
+      "scored": 10,
+      "slaAvg": 0.7
+    },
+    {
+      "ts": "2026-09-16T08:00",
+      "label": "16/09 08h",
+      "shortLabel": "08h",
+      "day": "2026-09-16",
+      "volume": 39,
+      "scored": 39,
+      "slaAvg": 0.6709
+    },
+    {
+      "ts": "2026-09-16T09:00",
+      "label": "16/09 09h",
+      "shortLabel": "09h",
+      "day": "2026-09-16",
+      "volume": 62,
+      "scored": 59,
+      "slaAvg": 0.5833
+    },
+    {
+      "ts": "2026-09-16T10:00",
+      "label": "16/09 10h",
+      "shortLabel": "10h",
+      "day": "2026-09-16",
+      "volume": 85,
+      "scored": 85,
+      "slaAvg": 0.6118
+    },
+    {
+      "ts": "2026-09-16T11:00",
+      "label": "16/09 11h",
+      "shortLabel": "11h",
+      "day": "2026-09-16",
+      "volume": 91,
+      "scored": 88,
+      "slaAvg": 0.5123
+    },
+    {
+      "ts": "2026-09-16T12:00",
+      "label": "16/09 12h",
+      "shortLabel": "12h",
+      "day": "2026-09-16",
+      "volume": 97,
+      "scored": 96,
+      "slaAvg": 0.7447
+    },
+    {
+      "ts": "2026-09-16T13:00",
+      "label": "16/09 13h",
+      "shortLabel": "13h",
+      "day": "2026-09-16",
+      "volume": 123,
+      "scored": 119,
+      "slaAvg": 0.6513
+    },
+    {
+      "ts": "2026-09-16T14:00",
+      "label": "16/09 14h",
+      "shortLabel": "14h",
+      "day": "2026-09-16",
+      "volume": 174,
+      "scored": 173,
+      "slaAvg": 0.6734
+    },
+    {
+      "ts": "2026-09-16T15:00",
+      "label": "16/09 15h",
+      "shortLabel": "15h",
+      "day": "2026-09-16",
+      "volume": 212,
+      "scored": 205,
+      "slaAvg": 0.7122
+    },
+    {
+      "ts": "2026-09-16T16:00",
+      "label": "16/09 16h",
+      "shortLabel": "16h",
+      "day": "2026-09-16",
+      "volume": 243,
+      "scored": 238,
+      "slaAvg": 0.6346
+    },
+    {
+      "ts": "2026-09-16T17:00",
+      "label": "16/09 17h",
+      "shortLabel": "17h",
+      "day": "2026-09-16",
+      "volume": 223,
+      "scored": 217,
+      "slaAvg": 0.7147
+    },
+    {
+      "ts": "2026-09-16T18:00",
+      "label": "16/09 18h",
+      "shortLabel": "18h",
+      "day": "2026-09-16",
+      "volume": 212,
+      "scored": 208,
+      "slaAvg": 0.8237
+    },
+    {
+      "ts": "2026-09-16T19:00",
+      "label": "16/09 19h",
+      "shortLabel": "19h",
+      "day": "2026-09-16",
+      "volume": 147,
+      "scored": 143,
+      "slaAvg": 0.8685
+    },
+    {
+      "ts": "2026-09-16T20:00",
+      "label": "16/09 20h",
+      "shortLabel": "20h",
+      "day": "2026-09-16",
+      "volume": 104,
+      "scored": 100,
+      "slaAvg": 0.83
+    },
+    {
+      "ts": "2026-09-16T21:00",
+      "label": "16/09 21h",
+      "shortLabel": "21h",
+      "day": "2026-09-16",
+      "volume": 39,
+      "scored": 38,
+      "slaAvg": 0.9737
+    },
+    {
+      "ts": "2026-09-16T22:00",
+      "label": "16/09 22h",
+      "shortLabel": "22h",
+      "day": "2026-09-16",
+      "volume": 65,
+      "scored": 64,
+      "slaAvg": 0.875
+    },
+    {
+      "ts": "2026-09-16T23:00",
+      "label": "16/09 23h",
+      "shortLabel": "23h",
+      "day": "2026-09-16",
+      "volume": 114,
+      "scored": 112,
+      "slaAvg": 0.8661
+    },
+    {
+      "ts": "2026-09-17T00:00",
+      "label": "17/09 00h",
+      "shortLabel": "00h",
+      "day": "2026-09-17",
+      "volume": 141,
+      "scored": 137,
+      "slaAvg": 0.7445
+    },
+    {
+      "ts": "2026-09-17T01:00",
+      "label": "17/09 01h",
+      "shortLabel": "01h",
+      "day": "2026-09-17",
+      "volume": 41,
+      "scored": 41,
+      "slaAvg": 0.4634
+    },
+    {
+      "ts": "2026-09-17T02:00",
+      "label": "17/09 02h",
+      "shortLabel": "02h",
+      "day": "2026-09-17",
+      "volume": 4,
+      "scored": 4,
+      "slaAvg": 1.0
+    },
+    {
+      "ts": "2026-09-17T03:00",
+      "label": "17/09 03h",
+      "shortLabel": "03h",
+      "day": "2026-09-17",
+      "volume": 4,
+      "scored": 4,
+      "slaAvg": 0.75
+    },
+    {
+      "ts": "2026-09-17T04:00",
+      "label": "17/09 04h",
+      "shortLabel": "04h",
+      "day": "2026-09-17",
+      "volume": 6,
+      "scored": 6,
+      "slaAvg": 0.5
+    },
+    {
+      "ts": "2026-09-17T05:00",
+      "label": "17/09 05h",
+      "shortLabel": "05h",
+      "day": "2026-09-17",
+      "volume": 16,
+      "scored": 15,
+      "slaAvg": 0.7333
+    },
+    {
+      "ts": "2026-09-17T06:00",
+      "label": "17/09 06h",
+      "shortLabel": "06h",
+      "day": "2026-09-17",
+      "volume": 15,
+      "scored": 15,
+      "slaAvg": 0.6667
+    },
+    {
+      "ts": "2026-09-17T07:00",
+      "label": "17/09 07h",
+      "shortLabel": "07h",
+      "day": "2026-09-17",
+      "volume": 10,
+      "scored": 10,
+      "slaAvg": 0.7
+    },
+    {
+      "ts": "2026-09-17T08:00",
+      "label": "17/09 08h",
+      "shortLabel": "08h",
+      "day": "2026-09-17",
+      "volume": 56,
+      "scored": 55,
+      "slaAvg": 0.4812
+    },
+    {
+      "ts": "2026-09-17T09:00",
+      "label": "17/09 09h",
+      "shortLabel": "09h",
+      "day": "2026-09-17",
+      "volume": 70,
+      "scored": 68,
+      "slaAvg": 0.5613
+    },
+    {
+      "ts": "2026-09-17T10:00",
+      "label": "17/09 10h",
+      "shortLabel": "10h",
+      "day": "2026-09-17",
+      "volume": 84,
+      "scored": 80,
+      "slaAvg": 0.4854
+    },
+    {
+      "ts": "2026-09-17T11:00",
+      "label": "17/09 11h",
+      "shortLabel": "11h",
+      "day": "2026-09-17",
+      "volume": 67,
+      "scored": 63,
+      "slaAvg": 0.4534
+    },
+    {
+      "ts": "2026-09-17T12:00",
+      "label": "17/09 12h",
+      "shortLabel": "12h",
+      "day": "2026-09-17",
+      "volume": 87,
+      "scored": 85,
+      "slaAvg": 0.5004
+    },
+    {
+      "ts": "2026-09-17T13:00",
+      "label": "17/09 13h",
+      "shortLabel": "13h",
+      "day": "2026-09-17",
+      "volume": 136,
+      "scored": 134,
+      "slaAvg": 0.6667
+    },
+    {
+      "ts": "2026-09-17T14:00",
+      "label": "17/09 14h",
+      "shortLabel": "14h",
+      "day": "2026-09-17",
+      "volume": 155,
+      "scored": 150,
+      "slaAvg": 0.7061
+    },
+    {
+      "ts": "2026-09-17T15:00",
+      "label": "17/09 15h",
+      "shortLabel": "15h",
+      "day": "2026-09-17",
+      "volume": 196,
+      "scored": 186,
+      "slaAvg": 0.6237
+    },
+    {
+      "ts": "2026-09-17T16:00",
+      "label": "17/09 16h",
+      "shortLabel": "16h",
+      "day": "2026-09-17",
+      "volume": 291,
+      "scored": 280,
+      "slaAvg": 0.5154
+    },
+    {
+      "ts": "2026-09-17T17:00",
+      "label": "17/09 17h",
+      "shortLabel": "17h",
+      "day": "2026-09-17",
+      "volume": 270,
+      "scored": 257,
+      "slaAvg": 0.6362
+    },
+    {
+      "ts": "2026-09-17T18:00",
+      "label": "17/09 18h",
+      "shortLabel": "18h",
+      "day": "2026-09-17",
+      "volume": 230,
+      "scored": 228,
+      "slaAvg": 0.8351
+    },
+    {
+      "ts": "2026-09-17T19:00",
+      "label": "17/09 19h",
+      "shortLabel": "19h",
+      "day": "2026-09-17",
+      "volume": 143,
+      "scored": 139,
+      "slaAvg": 0.9137
+    },
+    {
+      "ts": "2026-09-17T20:00",
+      "label": "17/09 20h",
+      "shortLabel": "20h",
+      "day": "2026-09-17",
+      "volume": 74,
+      "scored": 74,
+      "slaAvg": 0.8122
+    },
+    {
+      "ts": "2026-09-17T21:00",
+      "label": "17/09 21h",
+      "shortLabel": "21h",
+      "day": "2026-09-17",
+      "volume": 34,
+      "scored": 33,
+      "slaAvg": 0.9545
+    },
+    {
+      "ts": "2026-09-17T22:00",
+      "label": "17/09 22h",
+      "shortLabel": "22h",
+      "day": "2026-09-17",
+      "volume": 60,
+      "scored": 60,
+      "slaAvg": 0.85
+    },
+    {
+      "ts": "2026-09-17T23:00",
+      "label": "17/09 23h",
+      "shortLabel": "23h",
+      "day": "2026-09-17",
+      "volume": 112,
+      "scored": 110,
+      "slaAvg": 0.8136
+    },
+    {
+      "ts": "2026-09-18T00:00",
+      "label": "18/09 00h",
+      "shortLabel": "00h",
+      "day": "2026-09-18",
+      "volume": 78,
+      "scored": 75,
+      "slaAvg": 0.8733
+    },
+    {
+      "ts": "2026-09-18T01:00",
+      "label": "18/09 01h",
+      "shortLabel": "01h",
+      "day": "2026-09-18",
+      "volume": 32,
+      "scored": 29,
+      "slaAvg": 0.6897
+    },
+    {
+      "ts": "2026-09-18T02:00",
+      "label": "18/09 02h",
+      "shortLabel": "02h",
+      "day": "2026-09-18",
+      "volume": 2,
+      "scored": 2,
+      "slaAvg": 1.0
+    },
+    {
+      "ts": "2026-09-18T03:00",
+      "label": "18/09 03h",
+      "shortLabel": "03h",
+      "day": "2026-09-18",
+      "volume": 4,
+      "scored": 4,
+      "slaAvg": 1.0
+    },
+    {
+      "ts": "2026-09-18T04:00",
+      "label": "18/09 04h",
+      "shortLabel": "04h",
+      "day": "2026-09-18",
+      "volume": 4,
+      "scored": 4,
+      "slaAvg": 0.5
+    },
+    {
+      "ts": "2026-09-18T05:00",
+      "label": "18/09 05h",
+      "shortLabel": "05h",
+      "day": "2026-09-18",
+      "volume": 5,
+      "scored": 5,
+      "slaAvg": 0.6
+    },
+    {
+      "ts": "2026-09-18T06:00",
+      "label": "18/09 06h",
+      "shortLabel": "06h",
+      "day": "2026-09-18",
+      "volume": 15,
+      "scored": 15,
+      "slaAvg": 0.3333
+    },
+    {
+      "ts": "2026-09-18T07:00",
+      "label": "18/09 07h",
+      "shortLabel": "07h",
+      "day": "2026-09-18",
+      "volume": 16,
+      "scored": 16,
+      "slaAvg": 0.7625
+    },
+    {
+      "ts": "2026-09-18T08:00",
+      "label": "18/09 08h",
+      "shortLabel": "08h",
+      "day": "2026-09-18",
+      "volume": 42,
+      "scored": 41,
+      "slaAvg": 0.4878
+    },
+    {
+      "ts": "2026-09-18T09:00",
+      "label": "18/09 09h",
+      "shortLabel": "09h",
+      "day": "2026-09-18",
+      "volume": 76,
+      "scored": 67,
+      "slaAvg": 0.6556
+    },
+    {
+      "ts": "2026-09-18T10:00",
+      "label": "18/09 10h",
+      "shortLabel": "10h",
+      "day": "2026-09-18",
+      "volume": 92,
+      "scored": 85,
+      "slaAvg": 0.4292
+    },
+    {
+      "ts": "2026-09-18T11:00",
+      "label": "18/09 11h",
+      "shortLabel": "11h",
+      "day": "2026-09-18",
+      "volume": 104,
+      "scored": 99,
+      "slaAvg": 0.4263
+    },
+    {
+      "ts": "2026-09-18T12:00",
+      "label": "18/09 12h",
+      "shortLabel": "12h",
+      "day": "2026-09-18",
+      "volume": 95,
+      "scored": 83,
+      "slaAvg": 0.6097
+    },
+    {
+      "ts": "2026-09-18T13:00",
+      "label": "18/09 13h",
+      "shortLabel": "13h",
+      "day": "2026-09-18",
+      "volume": 126,
+      "scored": 118,
+      "slaAvg": 0.7081
+    },
+    {
+      "ts": "2026-09-18T14:00",
+      "label": "18/09 14h",
+      "shortLabel": "14h",
+      "day": "2026-09-18",
+      "volume": 197,
+      "scored": 190,
+      "slaAvg": 0.6184
+    },
+    {
+      "ts": "2026-09-18T15:00",
+      "label": "18/09 15h",
+      "shortLabel": "15h",
+      "day": "2026-09-18",
+      "volume": 243,
+      "scored": 229,
+      "slaAvg": 0.6809
+    },
+    {
+      "ts": "2026-09-18T16:00",
+      "label": "18/09 16h",
+      "shortLabel": "16h",
+      "day": "2026-09-18",
+      "volume": 268,
+      "scored": 254,
+      "slaAvg": 0.5896
+    },
+    {
+      "ts": "2026-09-18T17:00",
+      "label": "18/09 17h",
+      "shortLabel": "17h",
+      "day": "2026-09-18",
+      "volume": 303,
+      "scored": 284,
+      "slaAvg": 0.65
+    },
+    {
+      "ts": "2026-09-18T18:00",
+      "label": "18/09 18h",
+      "shortLabel": "18h",
+      "day": "2026-09-18",
+      "volume": 164,
+      "scored": 161,
+      "slaAvg": 0.8727
+    },
+    {
+      "ts": "2026-09-18T19:00",
+      "label": "18/09 19h",
+      "shortLabel": "19h",
+      "day": "2026-09-18",
+      "volume": 146,
+      "scored": 142,
+      "slaAvg": 0.8556
+    },
+    {
+      "ts": "2026-09-18T20:00",
+      "label": "18/09 20h",
+      "shortLabel": "20h",
+      "day": "2026-09-18",
+      "volume": 82,
+      "scored": 80,
+      "slaAvg": 0.8
+    },
+    {
+      "ts": "2026-09-18T21:00",
+      "label": "18/09 21h",
+      "shortLabel": "21h",
+      "day": "2026-09-18",
+      "volume": 86,
+      "scored": 84,
+      "slaAvg": 0.881
+    },
+    {
+      "ts": "2026-09-18T22:00",
+      "label": "18/09 22h",
+      "shortLabel": "22h",
+      "day": "2026-09-18",
+      "volume": 78,
+      "scored": 73,
+      "slaAvg": 0.8082
+    },
+    {
+      "ts": "2026-09-18T23:00",
+      "label": "18/09 23h",
+      "shortLabel": "23h",
+      "day": "2026-09-18",
+      "volume": 112,
+      "scored": 112,
+      "slaAvg": 0.8839
+    },
+    {
+      "ts": "2026-09-19T00:00",
+      "label": "19/09 00h",
+      "shortLabel": "00h",
+      "day": "2026-09-19",
+      "volume": 102,
+      "scored": 99,
+      "slaAvg": 0.8586
+    },
+    {
+      "ts": "2026-09-19T01:00",
+      "label": "19/09 01h",
+      "shortLabel": "01h",
+      "day": "2026-09-19",
+      "volume": 52,
+      "scored": 50,
+      "slaAvg": 0.8
+    },
+    {
+      "ts": "2026-09-19T02:00",
+      "label": "19/09 02h",
+      "shortLabel": "02h",
+      "day": "2026-09-19",
+      "volume": 4,
+      "scored": 4,
+      "slaAvg": 0.5
+    },
+    {
+      "ts": "2026-09-19T03:00",
+      "label": "19/09 03h",
+      "shortLabel": "03h",
+      "day": "2026-09-19",
+      "volume": 2,
+      "scored": 1,
+      "slaAvg": 0.5
+    },
+    {
+      "ts": "2026-09-19T04:00",
+      "label": "19/09 04h",
+      "shortLabel": "04h",
+      "day": "2026-09-19",
+      "volume": 5,
+      "scored": 3,
+      "slaAvg": 0.6667
+    },
+    {
+      "ts": "2026-09-19T05:00",
+      "label": "19/09 05h",
+      "shortLabel": "05h",
+      "day": "2026-09-19",
+      "volume": 4,
+      "scored": 4,
+      "slaAvg": 1.0
+    },
+    {
+      "ts": "2026-09-19T06:00",
+      "label": "19/09 06h",
+      "shortLabel": "06h",
+      "day": "2026-09-19",
+      "volume": 12,
+      "scored": 12,
+      "slaAvg": 0.6667
+    },
+    {
+      "ts": "2026-09-19T07:00",
+      "label": "19/09 07h",
+      "shortLabel": "07h",
+      "day": "2026-09-19",
+      "volume": 20,
+      "scored": 20,
+      "slaAvg": 0.45
+    },
+    {
+      "ts": "2026-09-19T08:00",
+      "label": "19/09 08h",
+      "shortLabel": "08h",
+      "day": "2026-09-19",
+      "volume": 46,
+      "scored": 39,
+      "slaAvg": 0.5201
+    },
+    {
+      "ts": "2026-09-19T09:00",
+      "label": "19/09 09h",
+      "shortLabel": "09h",
+      "day": "2026-09-19",
+      "volume": 94,
+      "scored": 79,
+      "slaAvg": 0.5316
+    },
+    {
+      "ts": "2026-09-19T10:00",
+      "label": "19/09 10h",
+      "shortLabel": "10h",
+      "day": "2026-09-19",
+      "volume": 96,
+      "scored": 80,
+      "slaAvg": 0.5747
+    },
+    {
+      "ts": "2026-09-19T11:00",
+      "label": "19/09 11h",
+      "shortLabel": "11h",
+      "day": "2026-09-19",
+      "volume": 112,
+      "scored": 97,
+      "slaAvg": 0.5309
+    },
+    {
+      "ts": "2026-09-19T12:00",
+      "label": "19/09 12h",
+      "shortLabel": "12h",
+      "day": "2026-09-19",
+      "volume": 120,
+      "scored": 106,
+      "slaAvg": 0.5767
+    },
+    {
+      "ts": "2026-09-19T13:00",
+      "label": "19/09 13h",
+      "shortLabel": "13h",
+      "day": "2026-09-19",
+      "volume": 176,
+      "scored": 156,
+      "slaAvg": 0.6774
+    },
+    {
+      "ts": "2026-09-19T14:00",
+      "label": "19/09 14h",
+      "shortLabel": "14h",
+      "day": "2026-09-19",
+      "volume": 218,
+      "scored": 192,
+      "slaAvg": 0.6502
+    },
+    {
+      "ts": "2026-09-19T15:00",
+      "label": "19/09 15h",
+      "shortLabel": "15h",
+      "day": "2026-09-19",
+      "volume": 299,
+      "scored": 275,
+      "slaAvg": 0.6259
+    },
+    {
+      "ts": "2026-09-19T16:00",
+      "label": "19/09 16h",
+      "shortLabel": "16h",
+      "day": "2026-09-19",
+      "volume": 395,
+      "scored": 357,
+      "slaAvg": 0.6937
+    },
+    {
+      "ts": "2026-09-19T17:00",
+      "label": "19/09 17h",
+      "shortLabel": "17h",
+      "day": "2026-09-19",
+      "volume": 416,
+      "scored": 357,
+      "slaAvg": 0.6946
+    },
+    {
+      "ts": "2026-09-19T18:00",
+      "label": "19/09 18h",
+      "shortLabel": "18h",
+      "day": "2026-09-19",
+      "volume": 228,
+      "scored": 219,
+      "slaAvg": 0.8094
+    },
+    {
+      "ts": "2026-09-19T19:00",
+      "label": "19/09 19h",
+      "shortLabel": "19h",
+      "day": "2026-09-19",
+      "volume": 178,
+      "scored": 172,
+      "slaAvg": 0.8169
+    },
+    {
+      "ts": "2026-09-19T20:00",
+      "label": "19/09 20h",
+      "shortLabel": "20h",
+      "day": "2026-09-19",
+      "volume": 116,
+      "scored": 109,
+      "slaAvg": 0.8823
+    },
+    {
+      "ts": "2026-09-19T21:00",
+      "label": "19/09 21h",
+      "shortLabel": "21h",
+      "day": "2026-09-19",
+      "volume": 101,
+      "scored": 98,
+      "slaAvg": 0.9541
+    },
+    {
+      "ts": "2026-09-19T22:00",
+      "label": "19/09 22h",
+      "shortLabel": "22h",
+      "day": "2026-09-19",
+      "volume": 86,
+      "scored": 84,
+      "slaAvg": 0.8869
+    },
+    {
+      "ts": "2026-09-19T23:00",
+      "label": "19/09 23h",
+      "shortLabel": "23h",
+      "day": "2026-09-19",
+      "volume": 162,
+      "scored": 150,
+      "slaAvg": 0.78
+    },
+    {
+      "ts": "2026-09-20T00:00",
+      "label": "20/09 00h",
+      "shortLabel": "00h",
+      "day": "2026-09-20",
+      "volume": 113,
+      "scored": 111,
+      "slaAvg": 0.964
+    },
+    {
+      "ts": "2026-09-20T01:00",
+      "label": "20/09 01h",
+      "shortLabel": "01h",
+      "day": "2026-09-20",
+      "volume": 83,
+      "scored": 77,
+      "slaAvg": 0.9351
+    },
+    {
+      "ts": "2026-09-20T02:00",
+      "label": "20/09 02h",
+      "shortLabel": "02h",
+      "day": "2026-09-20",
+      "volume": 13,
+      "scored": 13,
+      "slaAvg": 1.0
+    },
+    {
+      "ts": "2026-09-20T03:00",
+      "label": "20/09 03h",
+      "shortLabel": "03h",
+      "day": "2026-09-20",
+      "volume": 6,
+      "scored": 6,
+      "slaAvg": 0.75
+    },
+    {
+      "ts": "2026-09-20T04:00",
+      "label": "20/09 04h",
+      "shortLabel": "04h",
+      "day": "2026-09-20",
+      "volume": 1,
+      "scored": 1,
+      "slaAvg": 1.0
+    },
+    {
+      "ts": "2026-09-20T05:00",
+      "label": "20/09 05h",
+      "shortLabel": "05h",
+      "day": "2026-09-20",
+      "volume": 8,
+      "scored": 6,
+      "slaAvg": 0.8333
+    },
+    {
+      "ts": "2026-09-20T06:00",
+      "label": "20/09 06h",
+      "shortLabel": "06h",
+      "day": "2026-09-20",
+      "volume": 11,
+      "scored": 10,
+      "slaAvg": 0.8
+    },
+    {
+      "ts": "2026-09-20T07:00",
+      "label": "20/09 07h",
+      "shortLabel": "07h",
+      "day": "2026-09-20",
+      "volume": 18,
+      "scored": 12,
+      "slaAvg": 0.7222
+    },
+    {
+      "ts": "2026-09-20T08:00",
+      "label": "20/09 08h",
+      "shortLabel": "08h",
+      "day": "2026-09-20",
+      "volume": 65,
+      "scored": 58,
+      "slaAvg": 0.603
+    },
+    {
+      "ts": "2026-09-20T09:00",
+      "label": "20/09 09h",
+      "shortLabel": "09h",
+      "day": "2026-09-20",
+      "volume": 68,
+      "scored": 56,
+      "slaAvg": 0.6048
+    },
+    {
+      "ts": "2026-09-20T10:00",
+      "label": "20/09 10h",
+      "shortLabel": "10h",
+      "day": "2026-09-20",
+      "volume": 108,
+      "scored": 86,
+      "slaAvg": 0.5753
+    },
+    {
+      "ts": "2026-09-20T11:00",
+      "label": "20/09 11h",
+      "shortLabel": "11h",
+      "day": "2026-09-20",
+      "volume": 119,
+      "scored": 83,
+      "slaAvg": 0.6051
+    },
+    {
+      "ts": "2026-09-20T12:00",
+      "label": "20/09 12h",
+      "shortLabel": "12h",
+      "day": "2026-09-20",
+      "volume": 119,
+      "scored": 96,
+      "slaAvg": 0.6347
+    },
+    {
+      "ts": "2026-09-20T13:00",
+      "label": "20/09 13h",
+      "shortLabel": "13h",
+      "day": "2026-09-20",
+      "volume": 289,
+      "scored": 243,
+      "slaAvg": 0.7749
+    },
+    {
+      "ts": "2026-09-20T14:00",
+      "label": "20/09 14h",
+      "shortLabel": "14h",
+      "day": "2026-09-20",
+      "volume": 261,
+      "scored": 206,
+      "slaAvg": 0.6954
+    },
+    {
+      "ts": "2026-09-20T15:00",
+      "label": "20/09 15h",
+      "shortLabel": "15h",
+      "day": "2026-09-20",
+      "volume": 331,
+      "scored": 249,
+      "slaAvg": 0.6473
+    },
+    {
+      "ts": "2026-09-20T16:00",
+      "label": "20/09 16h",
+      "shortLabel": "16h",
+      "day": "2026-09-20",
+      "volume": 384,
+      "scored": 300,
+      "slaAvg": 0.7514
+    },
+    {
+      "ts": "2026-09-20T17:00",
+      "label": "20/09 17h",
+      "shortLabel": "17h",
+      "day": "2026-09-20",
+      "volume": 375,
+      "scored": 283,
+      "slaAvg": 0.6557
+    },
+    {
+      "ts": "2026-09-20T18:00",
+      "label": "20/09 18h",
+      "shortLabel": "18h",
+      "day": "2026-09-20",
+      "volume": 341,
+      "scored": 216,
+      "slaAvg": 0.8248
+    },
+    {
+      "ts": "2026-09-20T19:00",
+      "label": "20/09 19h",
+      "shortLabel": "19h",
+      "day": "2026-09-20",
+      "volume": 199,
+      "scored": 181,
+      "slaAvg": 0.8039
+    },
+    {
+      "ts": "2026-09-20T20:00",
+      "label": "20/09 20h",
+      "shortLabel": "20h",
+      "day": "2026-09-20",
+      "volume": 150,
+      "scored": 130,
+      "slaAvg": 0.7308
+    },
+    {
+      "ts": "2026-09-20T21:00",
+      "label": "20/09 21h",
+      "shortLabel": "21h",
+      "day": "2026-09-20",
+      "volume": 82,
+      "scored": 75,
+      "slaAvg": 0.9533
+    },
+    {
+      "ts": "2026-09-20T22:00",
+      "label": "20/09 22h",
+      "shortLabel": "22h",
+      "day": "2026-09-20",
+      "volume": 94,
+      "scored": 89,
+      "slaAvg": 0.6742
+    },
+    {
+      "ts": "2026-09-20T23:00",
+      "label": "20/09 23h",
+      "shortLabel": "23h",
+      "day": "2026-09-20",
+      "volume": 122,
+      "scored": 114,
+      "slaAvg": 0.8158
+    },
+    {
+      "ts": "2026-09-21T00:00",
+      "label": "21/09 00h",
+      "shortLabel": "00h",
+      "day": "2026-09-21",
+      "volume": 105,
+      "scored": 94,
+      "slaAvg": 0.8351
+    },
+    {
+      "ts": "2026-09-21T01:00",
+      "label": "21/09 01h",
+      "shortLabel": "01h",
+      "day": "2026-09-21",
+      "volume": 64,
+      "scored": 58,
+      "slaAvg": 0.9569
+    },
+    {
+      "ts": "2026-09-21T02:00",
+      "label": "21/09 02h",
+      "shortLabel": "02h",
+      "day": "2026-09-21",
+      "volume": 10,
+      "scored": 10,
+      "slaAvg": 0.8
+    },
+    {
+      "ts": "2026-09-21T03:00",
+      "label": "21/09 03h",
+      "shortLabel": "03h",
+      "day": "2026-09-21",
+      "volume": 11,
+      "scored": 9,
+      "slaAvg": 0.7852
+    },
+    {
+      "ts": "2026-09-21T04:00",
+      "label": "21/09 04h",
+      "shortLabel": "04h",
+      "day": "2026-09-21",
+      "volume": 8,
+      "scored": 6,
+      "slaAvg": 0.8333
+    },
+    {
+      "ts": "2026-09-21T05:00",
+      "label": "21/09 05h",
+      "shortLabel": "05h",
+      "day": "2026-09-21",
+      "volume": 7,
+      "scored": 6,
+      "slaAvg": 0.8333
+    },
+    {
+      "ts": "2026-09-21T06:00",
+      "label": "21/09 06h",
+      "shortLabel": "06h",
+      "day": "2026-09-21",
+      "volume": 5,
+      "scored": 4,
+      "slaAvg": 0.75
+    },
+    {
+      "ts": "2026-09-21T07:00",
+      "label": "21/09 07h",
+      "shortLabel": "07h",
+      "day": "2026-09-21",
+      "volume": 20,
+      "scored": 12,
+      "slaAvg": 0.4167
+    },
+    {
+      "ts": "2026-09-21T08:00",
+      "label": "21/09 08h",
+      "shortLabel": "08h",
+      "day": "2026-09-21",
+      "volume": 51,
+      "scored": 40,
+      "slaAvg": 0.6562
+    },
+    {
+      "ts": "2026-09-21T09:00",
+      "label": "21/09 09h",
+      "shortLabel": "09h",
+      "day": "2026-09-21",
+      "volume": 83,
+      "scored": 52,
+      "slaAvg": 0.6998
+    },
+    {
+      "ts": "2026-09-21T10:00",
+      "label": "21/09 10h",
+      "shortLabel": "10h",
+      "day": "2026-09-21",
+      "volume": 121,
+      "scored": 80,
+      "slaAvg": 0.6204
+    },
+    {
+      "ts": "2026-09-21T11:00",
+      "label": "21/09 11h",
+      "shortLabel": "11h",
+      "day": "2026-09-21",
+      "volume": 116,
+      "scored": 69,
+      "slaAvg": 0.643
+    },
+    {
+      "ts": "2026-09-21T12:00",
+      "label": "21/09 12h",
+      "shortLabel": "12h",
+      "day": "2026-09-21",
+      "volume": 132,
+      "scored": 92,
+      "slaAvg": 0.74
+    },
+    {
+      "ts": "2026-09-21T13:00",
+      "label": "21/09 13h",
+      "shortLabel": "13h",
+      "day": "2026-09-21",
+      "volume": 256,
+      "scored": 191,
+      "slaAvg": 0.7607
+    },
+    {
+      "ts": "2026-09-21T14:00",
+      "label": "21/09 14h",
+      "shortLabel": "14h",
+      "day": "2026-09-21",
+      "volume": 251,
+      "scored": 164,
+      "slaAvg": 0.7937
+    },
+    {
+      "ts": "2026-09-21T15:00",
+      "label": "21/09 15h",
+      "shortLabel": "15h",
+      "day": "2026-09-21",
+      "volume": 340,
+      "scored": 220,
+      "slaAvg": 0.8705
+    },
+    {
+      "ts": "2026-09-21T16:00",
+      "label": "21/09 16h",
+      "shortLabel": "16h",
+      "day": "2026-09-21",
+      "volume": 366,
+      "scored": 263,
+      "slaAvg": 0.8636
+    },
+    {
+      "ts": "2026-09-21T17:00",
+      "label": "21/09 17h",
+      "shortLabel": "17h",
+      "day": "2026-09-21",
+      "volume": 421,
+      "scored": 267,
+      "slaAvg": 0.9289
+    },
+    {
+      "ts": "2026-09-21T18:00",
+      "label": "21/09 18h",
+      "shortLabel": "18h",
+      "day": "2026-09-21",
+      "volume": 345,
+      "scored": 226,
+      "slaAvg": 0.9181
+    },
+    {
+      "ts": "2026-09-21T19:00",
+      "label": "21/09 19h",
+      "shortLabel": "19h",
+      "day": "2026-09-21",
+      "volume": 169,
+      "scored": 133,
+      "slaAvg": 0.9496
+    },
+    {
+      "ts": "2026-09-21T20:00",
+      "label": "21/09 20h",
+      "shortLabel": "20h",
+      "day": "2026-09-21",
+      "volume": 174,
+      "scored": 125,
+      "slaAvg": 0.988
+    },
+    {
+      "ts": "2026-09-21T21:00",
+      "label": "21/09 21h",
+      "shortLabel": "21h",
+      "day": "2026-09-21",
+      "volume": 88,
+      "scored": 83,
+      "slaAvg": 0.988
+    },
+    {
+      "ts": "2026-09-21T22:00",
+      "label": "21/09 22h",
+      "shortLabel": "22h",
+      "day": "2026-09-21",
+      "volume": 83,
+      "scored": 64,
+      "slaAvg": 1.0
+    },
+    {
+      "ts": "2026-09-21T23:00",
+      "label": "21/09 23h",
+      "shortLabel": "23h",
+      "day": "2026-09-21",
+      "volume": 97,
+      "scored": 85,
+      "slaAvg": 1.0
+    }
+  ],
+  "highlights": {
+    "bestDay": {
+      "date": "2026-09-21",
+      "label": "21/09",
+      "labelLong": "21 set (seg)",
+      "volume": 3323,
+      "scored": 2353,
+      "slaAvg": 0.8594
+    },
+    "worstDay": {
+      "date": "2026-09-17",
+      "label": "17/09",
+      "labelLong": "17 set (qui)",
+      "volume": 2302,
+      "scored": 2234,
+      "slaAvg": 0.6724
+    },
+    "worstBuckets": [
+      {
+        "ts": "2026-09-18T11:00",
+        "label": "18/09 11h",
+        "shortLabel": "11h",
+        "day": "2026-09-18",
+        "volume": 104,
+        "scored": 99,
+        "slaAvg": 0.4263
+      },
+      {
+        "ts": "2026-09-18T10:00",
+        "label": "18/09 10h",
+        "shortLabel": "10h",
+        "day": "2026-09-18",
+        "volume": 92,
+        "scored": 85,
+        "slaAvg": 0.4292
+      },
+      {
+        "ts": "2026-09-19T07:00",
+        "label": "19/09 07h",
+        "shortLabel": "07h",
+        "day": "2026-09-19",
+        "volume": 20,
+        "scored": 20,
+        "slaAvg": 0.45
+      },
+      {
+        "ts": "2026-09-17T11:00",
+        "label": "17/09 11h",
+        "shortLabel": "11h",
+        "day": "2026-09-17",
+        "volume": 67,
+        "scored": 63,
+        "slaAvg": 0.4534
+      },
+      {
+        "ts": "2026-09-17T01:00",
+        "label": "17/09 01h",
+        "shortLabel": "01h",
+        "day": "2026-09-17",
+        "volume": 41,
+        "scored": 41,
+        "slaAvg": 0.4634
+      }
+    ]
+  },
+  "baseGeral": {
+    "metric": "SLA de Entrega",
+    "weeks": [
+      {
+        "weekStart": "2026-09-14",
+        "label": "14/09 – 20/09",
+        "shortLabel": "14/09",
+        "slaAvg": 0.6436
+      },
+      {
+        "weekStart": "2026-09-21",
+        "label": "21/09 – 27/09",
+        "shortLabel": "21/09",
+        "slaAvg": 0.849
+      }
+    ],
+    "total": 0.7225,
+    "best": {
+      "weekStart": "2026-09-21",
+      "label": "21/09 – 27/09",
+      "shortLabel": "21/09",
+      "slaAvg": 0.849
+    },
+    "worst": {
+      "weekStart": "2026-09-14",
+      "label": "14/09 – 20/09",
+      "shortLabel": "14/09",
+      "slaAvg": 0.6436
+    }
+  },
+  "baseSlaSemanal": {
+    "metric": "SLA de Entrega",
+    "days": [
+      {
+        "date": "2026-09-17",
+        "label": "17/09",
+        "weekday": "qui",
+        "numSemana": 38,
+        "slaAvg": 0.6395
+      },
+      {
+        "date": "2026-09-18",
+        "label": "18/09",
+        "weekday": "sex",
+        "numSemana": 38,
+        "slaAvg": 0.6507
+      },
+      {
+        "date": "2026-09-19",
+        "label": "19/09",
+        "weekday": "sáb",
+        "numSemana": 38,
+        "slaAvg": 0.6489
+      },
+      {
+        "date": "2026-09-20",
+        "label": "20/09",
+        "weekday": "dom",
+        "numSemana": 39,
+        "slaAvg": 0.6359
+      },
+      {
+        "date": "2026-09-21",
+        "label": "21/09",
+        "weekday": "seg",
+        "numSemana": 39,
+        "slaAvg": 0.7072
+      },
+      {
+        "date": "2026-09-22",
+        "label": "22/09",
+        "weekday": "ter",
+        "numSemana": 39,
+        "slaAvg": 0.9207
+      },
+      {
+        "date": "2026-09-23",
+        "label": "23/09",
+        "weekday": "qua",
+        "numSemana": 39,
+        "slaAvg": 1.0
+      }
+    ],
+    "weeks": [
+      {
+        "numSemana": 38,
+        "label": "Semana 38",
+        "slaAvg": 0.6464,
+        "days": 3,
+        "range": "17/09 – 19/09"
+      },
+      {
+        "numSemana": 39,
+        "label": "Semana 39",
+        "slaAvg": 0.8159,
+        "days": 4,
+        "range": "20/09 – 23/09"
+      }
+    ],
+    "best": {
+      "date": "2026-09-23",
+      "label": "23/09",
+      "weekday": "qua",
+      "numSemana": 39,
+      "slaAvg": 1.0
+    },
+    "worst": {
+      "date": "2026-09-20",
+      "label": "20/09",
+      "weekday": "dom",
+      "numSemana": 39,
+      "slaAvg": 0.6359
+    },
+    "latest": {
+      "date": "2026-09-23",
+      "label": "23/09",
+      "weekday": "qua",
+      "numSemana": 39,
+      "slaAvg": 1.0
+    },
+    "overall": 0.7433
+  }
+}
